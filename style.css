@@ -1,21 +1,78 @@
 body{
-    font-family: 'Otomanopee One', sans-serif;
-    font-family: 'Teko', sans-serif;
-    font-size: 110%;
-    padding-left: 20px;
+    font-family: 'Roboto Slab', serif;
+   
+    
+    
 }
-#single-text{
-    color: chocolate;
-    font-family:  'Otomanopee One', sans-serif;
+h1{
+    font-size: 60px;
+    
+    position: relative;
+    top: 100px;
+    font-weight: bolder;
 }
-          
+h4{
+    position: relative;
+    top: 80px;
+}
+span{
+    color: orange;
+  
+}
+
+.flex{
+    display: flex;   
+}
+
+.half-width{
+    width: 60%px;
+    padding-left: 100px;   
+}
+.half-width img
+{
+   position: relative;
+   bottom: 20px;
+  
+    
+}
+.first{
+    position: relative;
+    top: 100px;
+}
+
+.small{
+    padding-left: 50%;
+}
+
 .Button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato); 
     color: aliceblue;  
     font-weight: 700px;
     padding: 10px 20px;
-    border-radius: 5px;
-    position: relative;
-    top: 30px;
+    border-radius: 5px;  
+   
+    
+    
+
+
+}
+
+.model-image img{
+   
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    margin-top: 100px;
+
+}
+.text{
+    font-size: 30px;
+    padding-left: 300px;
+}
+h2{
+    padding-left: 300px;
+}
+.extra{
+    position: static  ;
 }
